@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lixo Eletrônico</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./imagens/logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/84962e84dd.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <button id="voltar-btn">
+      <a href="#header">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-icon lucide-arrow-up">
+        <path d="m5 12 7-7 7 7"/><path d="M12 19V5"/>
+      </svg>
+    </a>
+  </button>
+    <header id="header" class="section">
+      <!-- <div class="header-links">
+        <a href="#section-1">Início</a>
+        <a href="#section-2">Impacto</a>
+        <a href="#footer">Soluções</a>
+      </div> -->
+      <button id="menu" onclick="menuOn()">
+          <i id="menu-icon" class="fa-solid fa-bars icon"></i>
+      </button>
+      <div class="header-logo">
+        <img src="./imagens/logo.png" alt="reciclagem">
+      </div>
+      
+    </header>
+
+    <nav id="navbar" class="navbar section">
+      <div class="nav-top-bottom" id="nav-top">
+        <ul class="nav-list">
+          <li>
+            <a class="section-text" href="#section-1">Lixo Eletrônico</a>
+          </li>
+          <li>
+            <a class="section-text" href="#section-2">Impactos</a>
+          </li>
+          <li>
+            <a class="section-text" href="#section-3">Soluções</a>
+          </li>
+          <li>
+            <a class="section-text" href="#quem-somos">Quem Somos</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-top-bottom" id="nav-bottom" >
+        <ul class="nav-list">
+          <li>
+            <!-- <input type="checkbox" id="dark-toggle"> -->
+             <button onclick="modoEscuro()">Modo Escuro &#127769</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="navbar2" class="navbar2 section">
+      <ul>
+        <li>
+          <a class="section-text" href="#section-1">Lixo Eletrônico</a>
+        </li>
+        <li>
+          <a class="section-text" href="#section-2">Impactos</a>
+        </li>
+        <li>
+          <a class="section-text" href="#section-3">Soluções</a>
+        </li>
+        <li>
+          <a class="section-text" href="#quem-somos">Quem Somos</a>
+        </li>
+        <li>
+          <button onclick="modoEscuro()">Modo Escuro &#127769</button>
+        </li>
+      </ul>
+    </nav>
+
+    <section id="section-1" class="section">
+      <div class="container2">
+        <div class="section-1-text">
+          <h1 class="section-text">Lixo Eletrônico: A Crise Ambiental da Era Digital</h1>
+          <p class="section-text">Todos os anos milhões de toneladas de lixo eletrônico ameaçam o meio ambiente. Juntos, podemos mudar esse
+            cenário com reciclagem consciente e escolhas mais sustentáveis.</p>
+        </div>
+        <div class="section-1-img">
+
+        </div>
+      </div>
+    </section>
+
+    <section id="section-2" class="section">
+      <div class="container">
+        <div class="section-2-text">
+          <h1 class="section-text">O Impacto do Lixo Eletrônico</h1>
+          <p class="section-text">
+            O lixo eletrônico é o tipo de resíduo que mais cresce globalmente, causando danos ambientais e à saúde.
+            <br> Entender sua gravidade é o primeiro passo para a solução.
+          </p>
+        </div>
+        <div id="section-2-cards">
+          <div class="section-2-card">
+            <div class="card-space">
+              <svg xmlns="http://www.w3.org/2000/svg" width="3vh" height="3vh" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="section-2-card-icon lucide lucide-smartphone">
+                <rect width="14" height="20" x="5" y="2" rx="2" ry="2" />
+                <path d="M12 18h.01" />
+              </svg>
+            </div>
+            <div class="card-space">
+              <h3 class="section-text">57.4Mi de Toneladas</h3>
+            </div>
+            <div class="card-space">
+              <p class="section-text">de lixo eletrônico gerado globalmente em 2021</p>
+            </div>
+          </div>
+          <div class="section-2-card">
+            <div class="card-space">
+              <svg xmlns="http://www.w3.org/2000/svg" width="3vh" height="3vh" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="section-2-card-icon lucide lucide-battery">
+                <rect width="16" height="10" x="2" y="7" rx="2" ry="2" />
+                <line x1="22" x2="22" y1="11" y2="13" />
+              </svg>
+            </div>
+            <div class="card-space">
+              <h3 class="section-text">2%</h3>
+            </div>
+            <div class="card-space">
+              <p class="section-text">do lixo eletrônico é reciclado devidamente</p>
+            </div>
+          </div>
+          <div class="section-2-card">
+            <div class="card-space">
+              <svg xmlns="http://www.w3.org/2000/svg" width="3vh" height="3vh" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="section-2-card-icon lucide lucide-triangle-alert">
+                <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" />
+                <path d="M12 9v4" />
+                <path d="M12 17h.01" />
+              </svg>
+            </div>
+            <div class="card-space">
+              <h3 class="section-text">$62.5Bi</h3>
+            </div>
+            <div class="card-space">
+              <p class="section-text">de materiais brutos são perdidos anualmente</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-3" class="section">
+      <div class="container2">
+        <div class="section-3-text">
+          <span class="section-3-badge">Soluções</span>
+          <h1 class="section-text">Como Podemos Combater a Crise Do Lixo Eletrônico</h1>
+          <h4 class="section-text">Reciclagem Responsável</h4>
+          <p class="section-text">Apoie recicladores que garantem o descarte correto e seguro de dispositivos eletrônicos, reduzindo a
+            contaminação ambiental.</p>
+          <h4 class="section-text">Reparação e Reutilização</h4>
+          <p class="section-text">Dê uma nova vida aos seus eletrônicos! Priorize o reparo de dispositivos e considere adquirir produtos
+            recondicionados para reduzir o desperdício.</p>
+          <h4 class="section-text">Escolhas sustentáveis</h4>
+          <p class="section-text">Prefira marcas que adotam práticas ecológicas e produtos projetados para durar. Pequenas decisões fazem uma
+            grande diferença para o planeta.</p>
+        </div>
+        <div class="section-3-img">
+          <img id="infografico-light" class="infografico" src="./imagens/infografico-light.jpeg" alt="Infográfico">
+          <img id="infografico-dark" class="infografico" src="./imagens/infografico-dark.jpeg" alt="Infográfico">
+        </div>
+      </div>
+    </section>
+
+    <section id="quem-somos" class="section">
+      <div class="container">
+        <h2 class="section-text">Quem somos?</h2>
+        <div id="baloes-container">
+          <div class="balao">
+            <h3 class="section-text">Nathália Aparecida da Silva</h3>
+            <p class="section-text">23 anos, Alfenas</p>
+            <p class="section-text">Futura: Perita Cibernética</p>
+            <p class="section-text">Instagram: @nathalia_ap.silva</p>
+          </div>
+  
+          <div class="balao">
+            <h3 class="section-text">Davi Lucas dos Santos</h3>
+            <p class="section-text">17 anos, Paraguaçu</p>
+            <p class="section-text">Futuro: Desenvolvedor Front-End</p>
+            <p class="section-text">Instagram: @davilucas.san</p>
+          </div>
+  
+          <div class="balao">
+            <h3 class="section-text">Riquelme Botrel Moreira</h3>
+            <p class="section-text">19 anos, Barreiras</p>
+            <p class="section-text">Futuro: Segurança da Inf.</p>
+            <p class="section-text">Instagram: @rickk.zip</p>
+          </div>
+  
+          <div class="balao">
+            <h3 class="section-text">Rafael Oliveira de Carvalho</h3>
+            <p class="section-text">24 anos, Alfenas</p>
+            <p class="section-text">Futuro: Cybersegurança</p>
+            <p class="section-text">Instagram: @faehul</p>
+          </div>
+  
+          <div class="balao">
+            <h3 class="section-text">Tiago Emanuel Coelho Ferreira</h3>
+            <p class="section-text">22 anos, Alfenas</p>
+            <p class="section-text">Futuro: Pentester</p>
+            <p class="section-text">Instagram: @tixgotecf</p>
+          </div>
+  
+          <div class="balao">
+            <h3 class="section-text">Ana Luiza M. A. Vilela</h3>
+            <p class="section-text">18 anos, Monte Belo</p>
+            <p class="section-text">Futura: Desenvolvedora de Games/Animadora</p>
+            <p class="section-text">Instagram: @yurii_andie</p>
+          </div>
+  
+          <div class="balao">
+            <h3 class="section-text">Marcos Antônio M. C. Vilela</h3>
+            <p class="section-text">18 anos, Alfenas</p>
+            <p class="section-text">Futuro: Programador</p>
+            <p class="section-text">Instagram: </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer id="footer" class="section">
+      <div class="container">
+          <h3 class="section-text">2025 Ecologic. Todos os direitos reservados.</h3>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+
+</html>
